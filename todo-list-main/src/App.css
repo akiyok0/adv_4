@@ -1,0 +1,45 @@
+body {
+  font-family: 'Arial', sans-serif;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #dddddd;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0)
+}
+
+.tab {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.tab li {
+  margin-right: 10px;
+}
+
+.tab button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.tab button.active {
+  background-color: #436850;
+}
